@@ -1,0 +1,9 @@
+best_params:
+  batch: 32
+  blocks: 3
+  dropout: 0.12300585590169191
+  lookback: 60
+  lr: 0.00031555976464896354
+  stacks: 10
+  weight_decay: 7.3060533550074875e-06
+  width: 1024

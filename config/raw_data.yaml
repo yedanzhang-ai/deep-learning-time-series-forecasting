@@ -1,0 +1,10 @@
+raw_data:  
+  sales: "/kaggle/input/m5-forecasting-accuracy/sales_train_evaluation.csv"
+  price: "/kaggle/input/m5-forecasting-accuracy/sell_prices.csv"
+  calendar: "/kaggle/input/m5-forecasting-accuracy/calendar.csv"
+  
+  
+preprocessing:
+  dept_id: "HOUSEHOLD_2"
+  store_id: "CA_2"
+  output_dir: "data/processed"

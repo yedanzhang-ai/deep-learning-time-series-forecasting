@@ -1,0 +1,18 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore notebooks cache
+.ipynb_checkpoints/
+
+# Ignore Darts / Lightning logs
+.lightning_logs/
+.darts/
+
+# Ignore Kaggle artifacts
+__results___files/

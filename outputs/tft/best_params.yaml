@@ -1,0 +1,9 @@
+best_params:
+  batch: 32
+  dropout: 0.3762549479321487
+  heads: 2
+  hidden: 512
+  lookback: 180
+  lr: 0.00046290181957457904
+  lstm_layers: 1
+  weight_decay: 1.2484551207095973e-05

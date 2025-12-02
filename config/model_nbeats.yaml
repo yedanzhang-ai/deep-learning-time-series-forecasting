@@ -1,0 +1,29 @@
+model:
+  name: "nbeats"
+
+  n_epochs_tune: 50
+  n_trials: 50
+  early_stop_patience: 8
+  seed: 3
+  
+  n_epochs_train: 80
+  
+
+  hp_space:
+    lookback: [30, 60, 90, 180, 365]
+    stacks:   [6, 8, 10]
+    blocks:   [2, 3]
+    width:    [256, 512, 1024]
+    dropout:
+      type: float
+      low: 0.1
+      high: 0.4
+    batch: [32, 64, 128]
+    lr:
+      type: log_float
+      low: 1.0e-4
+      high: 1.0e-3
+    weight_decay:
+      type: log_float
+      low: 1.0e-6
+      high: 1.0e-4

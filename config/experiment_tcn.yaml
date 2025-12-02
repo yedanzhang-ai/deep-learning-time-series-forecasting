@@ -1,0 +1,12 @@
+experiment:
+  
+  model_name: "tcn"
+
+  # Path to data configuration for building dataset
+  data_config: "config/data.yaml"
+
+  # Path to model configuration (hp_space, n_epochs_tune, etc.)
+  model_config: "config/model_tcn.yaml"
+
+  # Where to save metrics, best params, etc.
+  output_dir: "outputs/tcn"

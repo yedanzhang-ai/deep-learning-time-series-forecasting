@@ -1,0 +1,9 @@
+data:  
+  file_path: "data/feature_engineering/sales_forecast_features.csv"
+  id_var: "id"
+  dt_var: "date"
+  target_var: "sales" 
+  freq: "D" 
+  forecast_horizon: 28
+  scale_vars: 
+    - "sell_price"

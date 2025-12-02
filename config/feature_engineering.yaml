@@ -1,0 +1,12 @@
+preprocessed_data:  
+  sales_df: "data/processed/sales_df.csv"
+  price_df: "data/processed/price_df.csv"
+  calendar_df: "data/processed/calendar_df.csv"
+  
+  
+feature_engineering:
+  dt_var: "date"
+  target_var: "sales"
+  freq: "D"
+  forecast_horizon: 28
+  output_dir: "data/feature_engineering"

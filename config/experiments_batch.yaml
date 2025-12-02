@@ -1,0 +1,7 @@
+experiments:
+  - config: config/experiment_lstm.yaml
+  - config: config/experiment_gru.yaml
+  - config: config/experiment_nbeats.yaml
+  - config: config/experiment_tcn.yaml
+  - config: config/experiment_tide.yaml
+  - config: config/experiment_tft.yaml

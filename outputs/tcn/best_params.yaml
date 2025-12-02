@@ -1,0 +1,9 @@
+best_params:
+  batch: 128
+  dilation_base: 4
+  dropout: 0.3251333534002215
+  filters: 512
+  kernel: 7
+  lookback: 365
+  lr: 0.0009628122968834362
+  weight_decay: 4.062564507167277e-06
